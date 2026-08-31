@@ -25,6 +25,7 @@ namespace LitMotion
 
             source.version++;
             source.buffer = null;
+            source.ease = Ease.Linear;
             source.tail = 0;
             source.lastTail = 0;
             source.count = 0;
